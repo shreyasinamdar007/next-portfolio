@@ -1,7 +1,6 @@
 "use client";
 // import Image from "next/image";
 import { useState } from "react";
-import { BsFillMoonStarsFill } from "react-icons/bs";
 import { AiFillLinkedin, AiFillGithub, AiFillInstagram } from "react-icons/ai";
 import Image from "next/image";
 import shre from "../../public/User1.png";
