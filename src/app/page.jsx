@@ -189,6 +189,7 @@ export default function Home() {
                   return (
                     <li
                       className={`flex animate-pulse space-x-3 rtl:space-x-reverse`}
+                      key={index}
                     >
                       <div className="pr-1 pt-0.5">
                         <svg
