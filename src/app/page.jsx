@@ -92,7 +92,7 @@ export default function Home() {
                 <AiFillInstagram />
               </a>
             </div>
-            <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
+            <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full sm:w-auto lg:w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
               <Image src={shre} layout="fill" objectFit="cover" />
             </div>
           </div>
@@ -184,7 +184,9 @@ export default function Home() {
             <div>
               <ul className="text-white transition duration-700 ease-in-out lg:text-base">
                 <div className="text-lg">{Experience[company]?.title}</div>
-                <div className="text-lg text-gray-400">{Experience[company]?.date}</div>
+                <div className="text-lg text-gray-400">
+                  {Experience[company]?.date}
+                </div>
                 {Experience[company]?.bulletPoints.map((bullets, index) => {
                   return (
                     <li
