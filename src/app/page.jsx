@@ -32,7 +32,7 @@ export default function Home() {
                 <a
                   className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
                   target="_blank"
-                  href="https://drive.google.com/file/d/17rvpNEofN7n7uD-VP5wCDXt15zJ13r7h/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1cwXDRmp1PsA-NUfmYxYLqK36JffoMnU-/view?usp=sharing"
                   download="Shreyas_Inamdar_CV.pdf"
                 >
                   Resume
